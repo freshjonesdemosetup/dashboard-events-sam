@@ -11,7 +11,7 @@ api.post('/api/event', function (request) {
   const events = [
       {
           Source: "dashboard.events.worker",
-          DetailType: "DashboardEvent",
+          DetailType: "FranklinEvent",
           Detail: JSON.stringify(request.body)
       }
   ];
