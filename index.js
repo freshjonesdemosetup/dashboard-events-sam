@@ -10,8 +10,8 @@ api.post('/api/event', function (request) {
 
   const events = [
       {
-          Source: "spaces.dashboard.events",
-          DetailType: "SpacesDashboardEvent",
+          Source: "dashboard.events.worker",
+          DetailType: "DashboardEvent",
           Detail: JSON.stringify(request.body)
       }
   ];

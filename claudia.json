@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "dashboard-events-worker-executor",
+    "name": "dashboard-events-worker",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "5gbxj8g5zj",
+    "module": "index"
+  }
+}
